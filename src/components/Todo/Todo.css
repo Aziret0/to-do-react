@@ -1,0 +1,49 @@
+.todo-text {
+    font-weight: bold;
+}
+.todo-text.done {
+    font-weight: 300;
+    text-decoration: line-through;
+    color: rgb(78, 70, 70);
+}
+.todo-text.edit { 
+    color: aliceblue;
+    background: purple
+}
+.settings {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: green;
+    position: relative;
+    left: 170px;
+    top: -20px;
+}
+.settings button {
+    display: none;
+}
+.settings .active {
+    display: flex;
+    padding-left: 20px;
+}
+.settings.active button {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+.settings.active button:first-child {
+    top: -100px;
+    left: 0;
+    padding: 0;
+}
+.settings.active button:nth-child(2) {
+    top: -50px;
+    right: -100%;
+    padding: 0;
+}
+.settings.active button:nth-child(3) {
+    top: 0;
+    right: -100%;
+    padding: 0;
+}

@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background:rgb(20, 166, 233);
+}
+
+.app-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+    background: white;
+}
+li {
+    list-style: none;
+}
